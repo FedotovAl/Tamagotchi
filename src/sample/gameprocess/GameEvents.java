@@ -118,7 +118,6 @@ public class GameEvents {
     }
 
     public static void savePet(Pet pet){
-        //TODO добваить время сохранения
         GameSave gameSave = new GameSave(pet);
         String filename = "Pet.save";
         FileOutputStream fos = null;
